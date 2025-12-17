@@ -49,6 +49,11 @@ tools/**/CONTRIBUTORS
 # Local scripts and tool wrappers
 *.bat
 *.cmd
+tools/**/*.pl
+tools/**/*.py
+tools/**/ant
+tools/**/antRun
+
 
 
 
