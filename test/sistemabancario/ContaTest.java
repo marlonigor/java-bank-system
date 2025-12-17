@@ -16,7 +16,7 @@ public class ContaTest {
     public void testDepositar() {
         Correntista c = new Correntista("Teste", "123");
         Conta conta = new ContaConcreta(c, "Teste");
-        
+
         conta.depositar(100.0);
         assertEquals(100.0, conta.getSaldo(), 0.001);
     }
@@ -25,17 +25,17 @@ public class ContaTest {
     public void testSacar() {
         Correntista c = new Correntista("Teste", "123");
         Conta conta = new ContaConcreta(c, "Teste");
-        
+
         conta.depositar(100.0);
         conta.sacar(30.0);
         assertEquals(70.0, conta.getSaldo(), 0.001);
     }
-    
+
     @Test
     public void testSacarSaldoInsuficiente() {
         Correntista c = new Correntista("Teste", "123");
         Conta conta = new ContaConcreta(c, "Teste");
-        
+
         conta.depositar(50.0);
         conta.sacar(100.0);
         assertEquals(50.0, conta.getSaldo(), 0.001); // Saldo deve permanecer inalterado
