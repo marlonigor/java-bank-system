@@ -52,7 +52,10 @@ tools/**/WHATSNEW
 tools/**/LICENSE
 tools/**/KEYS
 tools/**/CONTRIBUTORS
-tools/**/*.xml
+# Local scripts and tool wrappers
+*.bat
+*.cmd
+
 
 
 
