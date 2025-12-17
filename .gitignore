@@ -41,5 +41,7 @@ Desktop.ini
 tools/**/manual/
 tools/**/docs/
 tools/**/*.html
+tools/**/*.xsl
+tools/**/*.xslt
 
 
