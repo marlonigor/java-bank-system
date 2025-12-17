@@ -1,0 +1,41 @@
+# Compiled class file
+*.class
+
+# Build directories
+/bin/
+/build/
+/dist/
+
+# NetBeans specific
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# VS Code specific (excluding settings/launch shared configs)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# IntelliJ specific
+.idea/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+
+# Whitelist tools
+!tools/
+
