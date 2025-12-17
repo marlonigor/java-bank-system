@@ -43,5 +43,16 @@ tools/**/docs/
 tools/**/*.html
 tools/**/*.xsl
 tools/**/*.xslt
+tools/**/etc/
+tools/**/README
+tools/**/INSTALL
+tools/**/NOTICE
+tools/**/TODO
+tools/**/WHATSNEW
+tools/**/LICENSE
+tools/**/KEYS
+tools/**/CONTRIBUTORS
+tools/**/*.xml
+
 
 
