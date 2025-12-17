@@ -6,12 +6,6 @@
 /build/
 /dist/
 
-# NetBeans specific
-nbproject/private/
-nbbuild/
-nbdist/
-.nb-gradle/
-
 # VS Code specific (excluding settings/launch shared configs)
 .vscode/
 !.vscode/settings.json
